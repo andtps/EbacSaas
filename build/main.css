@@ -4,21 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-color: blue;
 }
 header .HeaderContent {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header nav ul {
   display: flex;
   list-style-type: none;
+  justify-content: flex-end;
+  padding-right: 60%;
 }
 header nav a {
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
+  color: white;
+  font-weight: bolder;
   text-align: center;
 }
 header #logo {
@@ -29,22 +38,42 @@ header #logo {
   max-width: 80%;
   margin: 0 auto 0 auto;
 }
+.container h2 {
+  margin: 40px 0 40px 0;
+  font-size: 30px;
+}
 .container .SectionContent {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 2%;
+  grid-template-columns: 30% 30% 30% 30%;
+  gap: 1%;
 }
 .container #imagem-content {
   width: 100%;
+  border-radius: 20px;
 }
 .container .ProductImg {
   margin-top: 3%;
 }
+.container .ProductImg h4 {
+  margin: 10px 0 10px 0;
+}
 .container .ProductImg button {
   width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(8, 201, 8);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.container .ProductImg button:hover {
+  background-color: rgb(8, 201, 8);
 }
 .container .ProductImg p {
   width: 100%;
+  font-size: 17px;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
