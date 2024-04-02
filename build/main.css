@@ -8,30 +8,18 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  background-color: blue;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-header .HeaderContent {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+body {
+  overflow-x: hidden;
 }
-header nav ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: flex-end;
-  padding-right: 60%;
-}
-header nav a {
-  text-decoration: none;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-}
-header #logo {
-  padding: 15px;
+
+body {
+  overflow-x: hidden;
 }
 
 .container {
@@ -63,17 +51,43 @@ header #logo {
   border-radius: 10px;
   border: none;
   background-color: rgb(8, 201, 8);
-  color: white;
+  color: White;
   font-size: 15px;
   cursor: pointer;
 }
 .container .ProductImg button:hover {
-  background-color: rgb(8, 201, 8);
+  background-color: rgb(75, 201, 75);
 }
 .container .ProductImg p {
   width: 100%;
   font-size: 17px;
   margin-bottom: 5px;
+}
+
+header {
+  background-color: #192a56;
+}
+header .HeaderContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding-right: 60%;
+}
+header nav a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: White;
+  font-weight: bolder;
+  text-align: center;
+}
+header #logo {
+  padding: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
